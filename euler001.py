@@ -28,9 +28,27 @@ def sum_multiples_3_5_naive(upper_limt):
     return sum_val
 
 def gauss_sum(n):
+    """
+    This function returns the sum from 1 to n using Gauss's formula
+
+    Args:
+        n (int): the maximum value of the sum
+
+    """
     return (n + 1) * n // 2
 
 def sum_multiples_3_5_gauss(upper_limit):
+    """
+    This function computes the sum of all multiples of 3 and 5 less than the
+    upper_limit, exclusive, using the formula for the sum of the first n
+
+    Args:
+        upper_limt (int): The upper limit of the summation
+
+    Returns:
+        sum_val (int): The sum of all multiples of 3 and 5 less than upper_limit
+
+    """
     upper_limit_3 = (upper_limit - 1) // 3
     upper_limit_5 = (upper_limit - 1) // 5
     upper_limit_15 = (upper_limit - 1) // 15
