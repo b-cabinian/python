@@ -4,7 +4,7 @@ Author: Brian Cabinian
 Description: Slow solution to Project Euler Problem 15. Attempts depth first
 search of all paths from upper left to lower right.
 
-Too slow to solve from 20 x 20 grid 
+Too slow to solve for 20 x 20 grid 
 
 https://projecteuler.net/problem=15
 """
